@@ -12,7 +12,7 @@ make project link to projects
 make image maybe on left of descriptions
 change last two images accordingly
 
-DRAWINGs
+DRAWINGS
 (maybe new sitting girl)
 change second school picture - make thinner
 
