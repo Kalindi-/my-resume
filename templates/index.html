@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>My resume</title>
+  <!--favicon-->
+  <link rel="shortcut icon" href="http://www.iconj.com/ico/0/4/04lfgo98b9.ico" type="image/x-icon" />
+  <!--css-->
+  <link href="css/style.css" rel="stylesheet">
+  <!--jQuery library-->
+  <script src="js/jQuery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- what is the difference between the last two scripts, or are they not supposed to be the same-->
+  <!-- for taking clicks in -->
+  <script src="js/click.js"></script>
+  <!--html elements and map functionaity-->
+  <script src="js/helper.js"></script>
+  <!-- font awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!--google maps js-->
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <!-- marker manager script-->
+  <script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markermanager/src/markermanager.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body unresolved>
+  <div id="main">
+    <header class="row">
+      <div id="header"></div>
+    </header>
+    <div id="welcome"></div>
+    <div class='gray'>
+      <h2 id="work-h2">Work Experience</h2>
+      <div id="workExperience" class="row"></div>
+    </div>
+    <div>
+      <h2>Projects</h2>
+      <div id="projects" class="row"></div>
+    </div>
+    <div class='gray'>
+      <h2>Education</h2>
+      <div id="education" class="row"></div>
+      <h2>Courses</h2>
+      <div id="courses" class="row"></div>
+    </div>
+    <div class="row map">
+      <div id="mapDiv">
+        <h2>I lived</h2><p>and worked or studied</p>
+      </div>
+      <div id="mapDiv2">
+        <h2>I went</h2><p>and sometimes stayed</p>
+      </div>
+    </div>
+    <div id="letsConnect">
+      <h2 class='orange center-text'>Let's Connect</h2>
+      <ul id="footerContacts" class="row"></ul>
+    </div>
+  </div>
+  <!--my javascript file that makes up the page-->
+  <script src="js/resumeBuilder.js"></script>
+</body>
+</html>

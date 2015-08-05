@@ -1,0 +1,455 @@
+/* css for project 2 for fend nanodegree - My resume (Kalindi)*/
+
+/* general body settings*/
+body {
+  font-family: "Lucida Console", sans-serif;
+  padding: 1em;
+  margin: auto;
+  width: 66em;
+  max-width: 95%;
+}
+
+.center {
+  justify-content: space-around;
+}
+
+.gray {
+  background-color: #F3F3F3;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* general text settings */
+h1 {
+  font-size: 40px;
+  color: #f5a623;
+  margin: 12px auto 7px;
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #f5a623;
+  padding: 10px 0 0;
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000000;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+
+p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 21px;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: 100;
+}
+
+a {
+  color: rgb(81, 110, 255);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  color: rgb(250, 38, 102);
+}
+
+i {
+  color: #f2edf2;
+  font-size: 14px;
+}
+
+.white-text {
+  color: #f2edf2;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.orange-text {
+  color: orange;
+}
+
+/* entries text settings */
+.school-text span {
+  font-size: 10px;
+}
+
+.location-text,
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: gray;
+  line-height: 16px;
+}
+
+.date-text {
+  color: lightgray;
+}
+
+.work-text {
+  margin-top: -1em;
+}
+
+.description {
+  font-size: 12px;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 1%;
+}
+
+.course-entry,
+.project-entry {
+  min-width: 160px;
+}
+
+#welcome-message,
+.map p,
+#button-text {
+  font-size: 10px;
+  color: darkgray;
+  text-align: center;
+  margin: 3px 0 -20px;
+}
+
+
+
+/* summary details section settings */
+details {
+  min-width: 150px;
+}
+
+details summary::-webkit-details-marker {
+  opacity: 0;
+}
+
+#button-div {
+  justify-content: flex-end;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  line-height: 12px;
+}
+
+#button-text {
+  font-size: 10px;
+  color: darkgray;
+  margin: 0 5px 0 ;
+
+}
+
+.gray summary {
+   outline: 1px solid rgb(243, 243, 243) !important;/*/
+   /*outline: 1px solid red !important;  /*#F3F3F3 */
+}
+
+
+/* img settings */
+img {
+  max-height: 100px;
+  min-width: 20%;
+}
+
+.project-img {
+  max-height: 50px;
+}
+
+#biopic {
+  float: left;
+  margin: -77.5px -40px -110px -25px;
+  width: 100px;
+}
+
+.biopic {
+  fill: #f2edf2;
+
+}
+
+
+/* header and footer settings */
+header {
+  padding-right: 2em;
+  border-radius: 10px 10px 0 0;
+}
+
+hr {
+  width: 22em;
+  float: left;
+}
+
+header,
+#letsConnect {
+  background-color: brown;
+}
+
+#letsConnect {
+  border-radius: 0 0 10px 10px;
+}
+
+#letsConnect h2 {
+  margin-top: 60px;
+  padding-top: 5px;
+  text-align: center;
+  color: brown;
+}
+
+#topContacts li {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+.topContacts {
+  margin-left: -10px;
+}
+
+#topContacts .orange-text {
+  display: none;
+}
+
+#footerContacts .red-text {
+  display: none;
+}
+
+#footerContacts li {
+  margin-top: -11px;
+  padding-bottom: 8px;
+}
+
+#intro {
+  padding-left: 6%;
+}
+
+#peer {
+  margin-left: -5px;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  justify-content: space-around;
+}
+
+
+/* row-colums grid settings */
+.row {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-1-5 {
+  width: 15%;
+}
+
+.col-2 {
+  width: 16.6%;
+}
+
+.col-2-5 {
+  width: 20%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
+/* google map settings */
+#map,
+#map2 {
+  /*display: block;*/
+  height: 330px;
+  border-style: solid;
+  border-color: black;
+  margin-left: -3px;
+  min-width: 430px;
+}
+
+
+#mapDiv,
+#mapDiv2 {
+  height: 370px;
+  margin-bottom: 10px;
+  width: 430px;
+
+}
+
+.map h2 {
+margin-bottom: -7px;
+}
+
+.map p {
+  margin: 0;
+}
+
+#map img,
+#map2 img,
+#map_canvas img {
+    max-width: inherit !important;
+    max-height: inherit !important;
+} /*http://stackoverflow.com/questions/13962398/google-maps-api-v3-tools-visual-distortions*/
+
+@media only screen and (max-width: 1050px) {
+  #header {
+    order: 0;
+    margin: 15px 300px -10px 300px;
+
+  }
+
+  .topContacts {
+    order: 1;
+  }
+
+  #skills-div {
+    order: 2;
+  }
+
+}
+
+@media only screen and (max-width: 460px) {
+
+  body {
+    padding: 0.3em;
+    max-width: 99%;
+  }
+  .topContacts {
+    order: 2;
+  }
+
+  #skills-div {
+    order: 1;
+  }
+
+  #skills-div li {
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: -5px;
+  }
+
+  hr {
+    width: 12em;
+  }
+
+  #role {
+    font-size: 12px;
+    margin-top: -3px;
+    max-width: 110%;
+
+  }
+
+  #header {
+    padding: 0px;
+  }
+
+  #biopic {
+  float: left;
+  margin: -111.5px -40px -110px -25px;
+  width: 100px;
+}
+  #map,
+  #map2 {
+    height: 280px;
+    min-width: 310px;
+  }
+
+
+  #mapDiv,
+  #mapDiv2 {
+    height: 340px;
+    width: 310px;
+
+  }
+
+
+}
+
+
+/*@media only screen and (max-width: 750px) {
+  #letsConnect {
+  }
+}*/
+
+/* Bar chart stuff
+.chart div {
+  font: 10px sans-serif;
+  background-color: #4A4A4A;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  height: 12px;
+  color: white;
+  display: inline-block;
+}
+*/
+
+
+
